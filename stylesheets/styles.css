@@ -6,6 +6,81 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_normalize.scss */
+
+table {
+  border-spacing: 5px;
+  border: 5px solid black;
+}
+
+th {
+  text-align: left;
+  background-color: #669999;
+}
+
+th, td {
+  padding: 15px;
+}
+
+td {
+  background-color: #c2d6d6;
+}
+
+.row {
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.col-md-2 {
+  padding: 10px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.col-lg-4 {
+  border: none;
+}
+
+.header {
+  background-color: #3e5b5b;
+  font-weight: bold;
+  font-size: 18px;
+  color: #f0f5f5;
+}
+
+.data {
+  background-color: #c2d6d6;
+}
+
+.col-md-4 {
+  padding: 5px;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+
+  &:hover {
+    background: linear-gradient(#ffffff, #dddddd);
+    color: #111111;
+  }
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.rectangle {
+  width: 150px;
+  height: 50px;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
